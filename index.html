@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  هيما لابتوب ستور  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<base target="_blank">
+<base target="_blank">
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header class="header">
+    <h1 class="logo"> هيما لابتوب ستور</h1>
+    <nav>
+      <a href="#contact" target="_self">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <!-- قسم المنتجات -->
+  <section class="products" id="products">
+    <h2 class="section-title">أحدث <span>اللابتوبات</span></h2>
+
+    <div class="cards-container">
+
+      <!-- كارد 1 — مخفّض -->
+      <div class="card sale">
+        <span class="badge">خصم 15%</span>
+        <img src="data:image/jpeg;base64,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" alt="لابتوب Dell XPS 15">
+        <div class="card-content">
+          <h3>Dell XPS 15</h3>
+          <ul class="specs">
+            <li>Intel i7-13700H</li>
+            <li>16GB RAM</li>
+            <li>512GB SSD</li>
+            <li>15.6" OLED</li>
+          </ul>
+          <div class="price">
+            <span class="old-price">$1,499</span>
+            <span class="new-price">$1,274</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 2 —  -->
+      <div class="card">
+        <span class="badge new">جديد</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRymoQTVcs1pqKCCrGh0-pYVy87QgLz5ambgVSBdLtcg&s=10" alt="لابتوب MacBook Air M3">
+        <div class="card-content">
+          <h3>MacBook Air M3</h3>
+          <ul class="specs">
+            <li>Apple M3</li>
+            <li>8GB RAM</li>
+            <li>256GB SSD</li>
+            <li>13.6" Retina</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$1,099</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 3 -->
+      <div class="card">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk8BDg4OExETJhUVJk81LTVPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT//AABEIAMsA9gMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwQCBQYBB//EAEEQAAEDAgQCBwUFBwMEAwAAAAEAAgMEEQUSITETQQYiUWFxgZEUMqHB0QdCUrHhFSMkYnKi8DOC8RZDkrJTwsP/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIEAwUG/8QAJBEBAQACAQQCAgMBAAAAAAAAAAECEQMEEiExQVETIiMyYQX/2gAMAwEAAhEDEQA/APpyIiAiIgIiICIiAiIgIiICIiAvnPSPpRjtL0gnbhTr0lPaMsMAe0u3JJGvMc19AqZm09NLO42EbS4+S+e4cHOpRO64fM50rr9rjf4Lpx4d904c/L+PHbGj+0qsYS2vw6CW25gkLD/4m/5rd0n2h4LNYVLaqlcfxxZh6tutbLS09Q21RCyUdj2B35qlL0dw2b3I3xHtjefncK94LPVcsesxvuad5Q4/g+IaUeJUsrvwCQZvQ6rY3vsvkdR0Qz/6NS0900fzH0UMeGdI8LsaGeoa1u3s9Qbf+J+i53DKfDvObDL1X2NF8li6Z9J8PLW1cjZNbZaqDK4+Yy/kVuKT7S9Q2vwpw/mp5Qfg635qjrPPp9CRczSdO+j9QLPqpKV3ZPEW/Hb4reUmIUNawOo6yCcH/wCN4P5ILSIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg5/pnPw8BfTNPXq3thA7idfgtGxgaA1uwFgrfSeb2npBSUoN20sZmeOxztG/C6hAWrgmptg6q7ykeNapWtRrVK1q62s8xeBiyyqRrFmGKtq8xQlmZuV3WHYVr6jA8Nnvmoowd7xgs18ltJXMhbeVwaO/RayoxVjT+7A8Xb+ivhxXk9RTPmx4vny1VR0Tpjc09TNGex1nj5LVz9Fq2N+eJ0MhGxa7I71NvzW9/a0gdmNyOxzNFsKapiq4+JFoRu2+ynk6S4zdi3H1uWXhyUdX0jwr3KvEImD8TuI3+64WypOn2Nwi07aWqA/Ewxu9RcfBb1yqVFJTT/6sET/ABbr6rNeCfFaJ1dnuLNJ9otK8htbh9RD2uicJB8itzSdL8Bq7BmIMicdMswMZ+IXGT4FRyf6YfGf5XXHoVRmwCQf6NQx3c5uX6ql4c56dZ1XHfd0+tQ1EM7M0MscjTza4FSL4r+za+kfmhjkY4a5oH2PwVqn6RY9QHKzEZtPuzjP+eqpcbPcdsc8cvVfYUWh6JYnW4rhLamubGHkm2Vtr2c4Xt32BRVWb5ERAREQEREBERAREQEREBEVDG6wUGDVdVYkxxEgDmbaIOQjl9uxTEa/VwfMY478ms0t63VtoVbDYDT4fTxON3hgzE7lx1JKvMC2Y+Jp5uf7Z2vWtUnUYzM85QOZVeqqoqSPM/Vx91vMrRVNe+pec7tNmjaxWni6fLl8/DPyc04/E810lPP7TxBRM4xjte5DQfVV6mtq4WEOonRO5FxJCsdE2cDCRO7qumeT1vQLehwOkjfEhcMs8ePks1uR3nDnyYS92rXCSOlndmkeSVC5gG7rLt6jCaCrBuxhPazqn4LUVPRWwJhqXAH7sguPULZxdZxXxfDByf8AO5p5l25h8cV9HEHtusaWodR1bZAbsJs8doVjEMCxWmiJFMZbO3i62nbZauYODDnBDiDcEbLfjlhy42S7VnFnx627F4soXBe0j+JQwP8AxMB+C9cF49msrGyzaEhYEKUhYEJK5XFC4LWY88x4c5jG3kkcGMaddez5ea2zgteYjW9J8OpGNBER47m+GrfiG+qpy5awdOmw7uSR32A0bKHCKemaNGNDR3gAAH0CK/GwRxtY33WiwRYY9pmiIiBERAREQEREBERAREQFzPTOXiQ0WHNJvUThzrbhretf1AC6ZcbikntfSyU/cooBGD/M7U/ABWwm8lM7rFm0KUWAudgsWhV8VuKA2da7gD4Lbhj3ZSfbzs72Y3L6UMRnhrJwITfhi1zzVWClcx5Iy5nkAFQxgQPe8uzX02VvB5DWY3BAAMrf3jvAfrZepZePjuvUeTrPm5f1+XYxROiZTwtDeG1tn3bfwXoqg1tQ+WN0UUB952zhbcLwNmbPPMXlzXNAaz7oI+q84hFNEKiMZ5rNc1moBPyXh+30OGGv1iw0slY17SLOFweayD3s2fp36qBzGunj6zS6LUDm269aJGvme95LPujTRRrfte6iw6TqkyMANr3HJfJ8Urvba6qnvduYtB7dV3mPV8lN0Wqah7QyV8eRrWnmdNPJfPMApfbcTp6ZvWjiPEkI2Nv1sPVeh0OuOZZ1w6id8jt6aLhUUEZ95kbWn0RwVh/hyULguFu7az2IXBYEKRwWBUudjAjVR9CYfbOkWIYgQCxhETD4an/81jXTezUc8w3awkeOw+K3X2fUfs3R6OQjrTfvD/u1H9uQeSz9RfWLX0eHvJ1KIiztwiIgIiICIiAiIgIiICIiDGRwjY57tmgkrhMGcaiGevcQ41kzpQQN23s34ALoul9WaXo5U8NxbLMBDGRuHONgfitVTQinpo4GgBsbQ0DwXXinnbhzXxpM0KljU9OKMwvks8kHRWKyU09I+Qe9sCuPrp3Elzjcr0+k6f8AJl315vPyX+k+Wc9dTxDVmbxK33QZsFU6qr4oy21ogeXaSFwsjX1MhZHr2r6V0Wozh3RilidG5z5TneBuLm60dfl2cep8r9JwY43u+Y27opI6fJE6zi+5d56rLMX1hj4bCxovnvqD2WWUGxyue4dj+Skc1rh1hdeK9HX0ijEfXlablxsSedtFHMJo6VrYHHiXAzHW3evailbNTOhzkMO4/VSEScaMN0jA17z2JvRry4z7SK0imosOiuZJn5y0bm2gt53U3RnB/wBlYYOK3+Jms6Tu7B5fmuZ6ZYxN/wBYyvpJLOpAImHKDlI3tdS4b0sxBr2+2WqWc9LO9VtwwyvHrFx5fDtXqJy9p6iKqpmzwOzMfsV45ctWXVZ6icFgQpSo3KY52NL0jzSw01Aw9esmEflff1I9F9Iw6FtPQwxsFmhosOwcgvn1JH+0enMEVrsoo8x7Mx0/+/8AavpQ0sFj5LvN6PBj24PURFR2EREBERAREQEREBERARYue1vvOsq0lfCw2BLj2BBzXTLE6OmxbCaaue5sAeZpMovtoAfM/BXoYqashE+HVMc0Z7DdcJ9oDK6bHXVjoHml4bWMc3WwG9/Vc1RYhU0U3GoqmSnkHNjt/Ec1bHOz0pnhMvb6tiVM80E0bmkOtcX7lwmIG8Wdq3GE/aCbCDHKYPba3GiGvm36K7U4JhmN0jpcDrWXdc5Sbi/YRuF6nRdXhh+uTDzdNlc5lHP9H2MfM0PFzNIIwANSvpjwxrmtzSM4bbC3uriOj+E1GG4xB+02NhZHmcx5PULthY+C7eOdsos5hbqQM33u8KnXckzznbV+Dj7LcvmpYxzLg7sIFl5IXXAa5oN9QeYWTGMaCWAa796imtmOaIkHQO5rDWqeUjXOOj2Ze9Y1Ewp6aWd20bC8+QuvIiz7jyRtY8lpem1c2h6OTXueORGGjffVTjj3WQt0+S1c/GqZahxL5JXlx8+1YwTnTl4K37XFlt7Llb3HVQyCF9pqc6Xs5pGoXr4yYWSOG+73HV9E8QcypNHIepLcs7nAfRdUV8+wgllfSOG/GYPVwBX0J258Vx6vGTKX7ZojKwNhqTYDc9ikK1mP1QpMFqpb2JZkB7z+iy26hjN3Sx9ncJqaivxV4P7+YhpPYNvi5w/2rvFoehlCaDo9TRubZ5YC/wDqOrv7i5b9YtvU1rwIiICIiAiKJ9RDH70jfzQSoqTq9g9xpd46KF+IZWkuBAG9lG06bMkDcqN0zG8/Ra19U1zbiZvWFwb3+AUDKjOQ2oa6JztBf3XeBUbNNk+ry8rd5Vd9U6RmZjswI0tsVSke+mu1jxOOTb9dv1ULmxSHOJgxzt2sBtcdo3TdNJjVcV/Da17ZbbOIFvqozUPZI0VJjc23vMuT59ixObJw54mQxuG5bf8A48143MxoFL1231OTUefNEsaymFdT5oH5h4b9xHNcXiPRyle88Fvsst+XuE/Jdo5jJC8RmYze8Ra2veFDUOJyitiYQdng9a/j9VA+W1uG1lA+00ZLfxDUFQU9RNSzCallfFKNnMdYr6XJQZ43OpHCWM7xkfL6Lna/AKacl8X8NL2H3SfHkrSo0kwvp5UMYIMZp21cVrF7QA7zGxXVYfiFDWxiTA6ywtd0TtQ09hadR5L5fW4bV0T7Txuy8nAaFVY5HxPEkT3xvbq17TYhdJnYplhH2tuI8MAVsRi7JG9aM/MeavMkEjA6N7XtIuC3UFfPKLpJWYfh0U+I/wAW05Q6wyvAOo12K3WHYph+JFr8JqjFM4jMxvUI7S5h0I8Fful9K9tjqmhoNwBdcj03a2sqKWmeerCC8jvP6Lfe0VNOf4yAvaNOLDcjzbuF856UVTqnFayrDzlvlbY20G2i2dHx/wAndfhw57bjqXW0dZh8bad5byC52m0qCR7pKsUUtQ97iZX8O2oJ0K9pacumayFhkkceq1ouVsyy77MteHLjwvHLjbtvuj9Px8WgYG3az947uA2+Nl27lrcAwr9m0xdNY1Evv2+6BsFsnLL1HJ35/wCKyaYFaDpAPbMQwvDLXbNPxJB2sb+mZb8961OBxftLp7UynWOijbC3uJ1P/q71WTlusXXgx3m+hUsfCpo4yNQNfHmpl4F6ssbRERSKc2IwRPczVzm72VR+Jyu0iYG951KzxGnYSZGizx2bOWvb2c1F2mRM6aaQ3fI7wugC8AUgCql6AvcjXL0BZgIK3szon8WmdkfzFtHKEycTIybM6TNZ0bhofDkthZYSwMnble26CsIqiBjjAxrWbiMm7vI/JYAwyvJa+d1QBu1tnN8RspHOqqfql5dFf3w27wFK2nhnjEjJXuPKTNqP87EFVwkiYXVbJJG7gt1b5he8KYszQOEbPeDM9wfA/dWT2mmu6qjfMG+7IDceY5Lw0pc8SsbGwe8G3zNPf2BSIgY5XZGQu4nJzn2Pk7moJ4XU7esGSudzvZ3pzVrP7STC/gsaDoCc1/6Tso8jYnFtJlnJ3H3gf6kGtc21niZrCdg02A+aydNHUWbUxE3FuIND+qmkyyOMksjWOG9ha3jdV3hziczjk/E1tgUEM1A/hu4BbPFzYRe3i36Ln6/AKWoJdAfZ3nkT1SfFdGwiM3gvft2HqpHOinaRWMa15/7jBY/qoNvneIU2IUsbaeq4nBj9wbha9ps5rgSCNQQbEea+mTUTmxEx5aiA7ttcDxG4XP12AUtR1qY8CT8DvdJ8VaX7Rr6QYP00xTD8rJ3e1wDSzz1gO4rpW1fRfpY0R1DWxVRGzjkf5HmuArMOq6J5bPG4DkQNCqnVuL8tQVfHOz1VbjK+g/8AQDxUW9sLqK1w1rbPPcT2LcUWE0OFt4dLTNjdbVx1cfErhcF6YYthOWMTe007f+1Mb28Cu6wrpfguMtbDUn2WodsyQ2B8HLv+fLL3XHLj+lgrEq/NQEDiQvDmkXFz81RkY6N9ntLT2FWll9M9xs9oJ5GwQSTP92NpcfIXUf2aUzv2fNXy3MlVI6QkjfWw/wDUn/ctb0tndDgb2R3MtQ4RMA5k8vgu16N0baHBaeBuzWho7wAAD52v5rjzXzpo4MdTbaoiLk7iIiCOWJsm4WrqaUh2Zq3CwewObsg0bDbqu3U2gFybDvU1TSW1aqZzXs7Qt2v/AJ/wq2J2mD2kWBJ8FIComWJta1lM0KEsgvQEDVmAgxy30cq0lIWO4tK8xv5jk7xCuWSyCpDVtc8RVDeFJtY+67wWE2Hi+eFou034b/cPlyKszwRztyyN3+Cq3qKLQ3ng/ub9UEZc6dzqZ8McROuSXW/9ICxk4lK0Mhla7kI3jrDwtuPFXJJKOpps0kjCwHdxsQfzuqcJfAHupoeNDqc2XI79VIrP9nldnmlJkHb1S3y5qB/FAvrw9s+TUjwV/Ia5olL422PV4Q1ae8n6KpK98b7GZpYN5GNuR48ggq2YARG/rHXTrX8uSwc1oGaYOzfzajyVlzYm34cnXOunWzeI+awIIFqjqDk0CwPmgjbxw8OiLmC/MjMjzBOcszC2U/eY3U+I29Fk5vVywvccu7B9eSxtE3QtdnPKxzFBVnopGRG4ZPTnuzN+oWhruj9NUnPTP4Mn4H7HwK6mPjxycRjngDYA6/r5o9lNVOLSzhyWu5zG2HmPooNvmlbh9VQyFk8Th2G2llUsDodQV9NqKKWOLK9jJ6c/7m+u4WgrujlPUBzqMuhk3yO2PgeattGvpqsG6TYrhDg2nqDJFvwZes39F2uFdNMMxACCs/g5HaBsnWjJ7jyXz/EcHrsP680OeLfiR6gePYqLXB1tVaWxW4y+30XHWR1nSnB6KmIe1jTUvDXXAN+rr4hvqvo0TBHGxjRYNaAF8r+zGi42KS1JByxgMb4DU/EsX1dRbbd1MmpqCIiAiIgIiIMS0O5KnU0oOrd1eXhF0Gj60TrO23CtROzf5urNRTNkbste5slO7mW7a/5qosTKugLIBRRStc219PiP071OFVLGy9svV6gwIWDm5lNlWJag1s1E4ycSHKyQbOtuja7Kcla10UjebQSHei2JCgnhZKzK9oPyUjXVEDapxcynMQO75Orm8W8/NYOllpwI5IADs1wIDD58vRZyNq6RpEUhfDyBaHOb4JH7JJEZXTCQbPdM73fLYeSCs+nlY8ytyNcd2N93/lR3ke4xyFrOxtr5vAlTsc8FxpM8sI3a/S39JOvqsiIqphaBmt7zHDUIK3BfEAIdRzY4/kVg0ce7JHWO5jAt/wA/kpXOMR4bXccc2ffb/nf6rC3tDDo0Nadr5ng/JBi9r423d14/5jY+R5qLSUEMa4lvMnKW/NTOiMd5HNMrNs7j1m+u6xkfFoRme4DquF22890HkT5oXgte59tLNb+Y5r1wpZgCXCCR3Ngu3zHJRGSZ7cua/cBYHxVaoljpqR9TZ8zGX6sPWJI0tfzQTvY6I2Ja5p5g3BWkxjo1ST009XBGaedjHPPDGjrC+o71uej5qq3izV1EaOLQQsOsj+8hb2hw5sMkz42OHHN5C91yTa2nZtyUjV/ZnRcDAmzuHWkF/XrfkR6LtFTw2hgw2ijpKVpbFHsC4uPqVcSKiIikEREBERAREQFDNC2RuymRBqJYXwOzN23U1NO1/Vu0HsOx8OzwV6SNr26ha2opS1141Fidr1ksqdPWWPDn8Ln/AD4q7uL8ioHiEL1eFBiQonBTFRuChKBwVGpomucJIbMlGoNtLrYOCjcFI1T6mRrv3sbWT7CQvytt3/T4hSyUZks6peC8jQxtygfP4qWSKSV5ZNw3M7Lf5qqxgngbkjllMP4WnVvz9Cg8v7KRDK1obydEPzby8fyVeomZI8PYwsc375PWPkNPzUoh5NGXuGpPkpmUXOSzB36n0QUCJJXBzszyPvOO3+dyTQzRRB7KWSoeTZrGEN1777D/ACy3EVPyijufxO+iux0RcQZde47KdI25iuwWbFaKGB1Q+mJs6VsJv4tB287Lb4PgkeG0bKSlDmRAk9Y3Jvvc963cdOxmzQpQANgmjarDRsZY5dVZawN2AWSKUCIiAiIgIiICIiAiIgIiICxc0O3CyRBr6qkB1aNVXhqH0z8kgOQ8uzwW3IvuqlRStk5KLBK17JGNcw5mnYr1aoOlpJLi5HPvWwhnjnbmYdRuOYUJZlRuUhUcj2s95wb4lQlG5RmwFzssJqg2u0Afzv0+CgAdKQcrpXdrtAPJSM3ShxtE3P3jb1WFs56779jY/qrUdHI/SR1h2AWCtxUrGj3RdTpG1CKne73W8Mdw1VqKia3Vwue1XAwN2CysmkMGRtb90LOyIpBERAREQEREBERAREQEREBERAREQEREBCERBBNAJG7BauWB9NJniJ010W7UUrWluoCDWSVsjgA02NtcjNfisGQzSuvly9+5KvtiZm90KwxoGwUJ2pw0DQczxd3aVbZC1mzQpAvVKHgAGwXqIgIiICIiAiIgIiICIiAiIgIiIP/Z" alt="لابتوب HP Pavilion 14">
+        <div class="card-content">
+          <h3>HP Pavilion 14</h3>
+          <ul class="specs">
+            <li>Intel i5-1335U</li>
+            <li>8GB RAM</li>
+            <li>512GB SSD</li>
+            <li>14" FHD</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$649</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 4 — مخفّض -->
+      <div class="card sale">
+        <span class="badge">خصم 10%</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCRFuoKfxN77pY4UUhj6gzUDeesHjY-ExQr4898uAog&s=10" alt="لابتوب Lenovo Legion 5">
+        <div class="card-content">
+          <h3>Lenovo Legion 5</h3>
+          <ul class="specs">
+            <li>Ryzen 7 7840H</li>
+            <li>16GB RAM</li>
+            <li>1TB SSD</li>
+            <li>RTX 4060</li>
+          </ul>
+          <div class="price">
+            <span class="old-price">$1,199</span>
+            <span class="new-price">$1,079</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 5 — مخفّض -->
+      <div class="card sale">
+        <span class="badge">خصم 20%</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTaPtsPAv70sFQE9IAhP-1-1oMC4dM3KKAPRRj1BpqMg&s=10" alt="لابتوب ASUS ROG Strix G16">
+        <div class="card-content">
+          <h3>ASUS ROG Strix G16</h3>
+          <ul class="specs">
+            <li>Intel i9-13980HX</li>
+            <li>16GB RAM</li>
+            <li>1TB SSD</li>
+            <li>RTX 4070</li>
+          </ul>
+          <div class="price">
+            <span class="old-price">$1,899</span>
+            <span class="new-price">$1,519</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 6 —  -->
+      <div class="card">
+        <span class="badge new">جديد</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3p9rNx1tnI2ZonUAiYsyX0T9K2oSYDc_44Hrgn-R_Pg&s=10" alt="لابتوب MacBook Pro 14">
+        <div class="card-content">
+          <h3>MacBook Pro 14 M3</h3>
+          <ul class="specs">
+            <li>Apple M3 Pro</li>
+            <li>18GB RAM</li>
+            <li>512GB SSD</li>
+            <li>14.2" Retina</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$1,999</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 7 -->
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEOnO-cY-LVHKfRYvvw0oV8TT5qpSiDwf7ID6M1MLPNw&s=10" alt="لابتوب Lenovo ThinkPad X1">
+        <div class="card-content">
+          <h3>Lenovo ThinkPad X1</h3>
+          <ul class="specs">
+            <li>Intel i7-1365U</li>
+            <li>16GB RAM</li>
+            <li>512GB SSD</li>
+            <li>14" IPS</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$1,449</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 8 — مخفّض -->
+      <div class="card sale">
+        <span class="badge">خصم 12%</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBTqlDoqSU4hachoxKJe1mU93knT4Bg0AcfHiRz82WYw&s=10" alt="لابتوب Acer Swift Go 14">
+        <div class="card-content">
+          <h3>Acer Swift Go 14</h3>
+          <ul class="specs">
+            <li>Intel i5-13500H</li>
+            <li>16GB RAM</li>
+            <li>512GB SSD</li>
+            <li>14" OLED</li>
+          </ul>
+          <div class="price">
+            <span class="old-price">$799</span>
+            <span class="new-price">$703</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 9 -->
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCnxH0o2z-E2fWJf8RQWfaGnScPKyDISJbrKD8h5FEiQ&s=10" alt="لابتوب MSI Katana 15">
+        <div class="card-content">
+          <h3>MSI Katana 15</h3>
+          <ul class="specs">
+            <li>Intel i7-13620H</li>
+            <li>16GB RAM</li>
+            <li>1TB SSD</li>
+            <li>RTX 4050</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$1,049</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+      <!-- كارد 10 —  -->
+      <div class="card">
+        <span class="badge new">جديد</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzO6Retud-NWNio6it-dC6L39nixPqac5aGGi27t-TQ&s=10" alt="لابتوب Surface Laptop 5">
+        <div class="card-content">
+          <h3>Surface Laptop 5</h3>
+          <ul class="specs">
+            <li>Intel i7-1255U</li>
+            <li>16GB RAM</li>
+            <li>512GB SSD</li>
+            <li>13.5" Touch</li>
+          </ul>
+          <div class="price">
+            <span class="new-price">$1,299</span>
+          </div>
+          <button class="btn">أضف إلى السلة</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- قسم التواصل -->
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2 class="contact-title">تواصل <span>معنا</span></h2>
+      <p class="contact-text">عندك سؤال عن أي لابتوب؟ اترك رسالتك ورح نرد عليك بأسرع وقت.</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="الاسم الكامل" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea rows="4" placeholder="اكتب رسالتك هنا..." required></textarea>
+        <button type="submit" class="btn">إرسال الرسالة</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <p>© 2026 هيما لابتوب ستور — جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
